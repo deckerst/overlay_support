@@ -29,7 +29,7 @@ class KeyedOverlay extends StatelessWidget {
 ///
 /// ```
 class ModalKey<T> extends ValueKey<T> {
-  ModalKey(T value) : super(value);
+  ModalKey(super.value);
 
   @override
   bool operator ==(other) {
@@ -59,7 +59,7 @@ class ModalKey<T> extends ValueKey<T> {
 ///
 /// ```
 class TransientKey<T> extends ValueKey<T> {
-  const TransientKey(T value) : super(value);
+  const TransientKey(super.value);
 
   @override
   bool operator ==(other) {

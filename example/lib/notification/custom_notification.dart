@@ -15,10 +15,10 @@ class MessageNotification extends StatelessWidget {
   final String message;
 
   const MessageNotification({
-    Key? key,
+    super.key,
     required this.onReply,
     required this.message,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

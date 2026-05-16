@@ -382,7 +382,7 @@ void main() {
 class FakeOverlay extends StatelessWidget {
   final Widget child;
 
-  const FakeOverlay({Key? key, required this.child}) : super(key: key);
+  const FakeOverlay({super.key, required this.child});
 
   @override
   Widget build(BuildContext context) {

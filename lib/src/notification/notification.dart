@@ -10,8 +10,7 @@ class TopSlideNotification extends StatelessWidget {
   final double progress;
 
   const TopSlideNotification(
-      {Key? key, required this.builder, required this.progress})
-      : super(key: key);
+      {super.key, required this.builder, required this.progress});
 
   @override
   Widget build(BuildContext context) {
@@ -31,8 +30,7 @@ class BottomSlideNotification extends StatelessWidget {
   final double progress;
 
   const BottomSlideNotification(
-      {Key? key, required this.builder, required this.progress})
-      : super(key: key);
+      {super.key, required this.builder, required this.progress});
 
   @override
   Widget build(BuildContext context) {
@@ -51,13 +49,12 @@ class SlideDismissible extends StatelessWidget {
   final DismissDirection direction;
 
   SlideDismissible({
-    Key? key,
+    super.key,
     required this.child,
     @Deprecated('use directions instead.') bool enable = true,
     DismissDirection? direction,
   })  : direction = direction ??
-            (enable ? DismissDirection.horizontal : DismissDirection.none),
-        super(key: key);
+            (enable ? DismissDirection.horizontal : DismissDirection.none);
 
   @override
   Widget build(BuildContext context) {

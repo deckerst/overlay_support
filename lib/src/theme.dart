@@ -43,10 +43,10 @@ class OverlaySupportTheme extends InheritedWidget {
   final ToastThemeData toastTheme;
 
   const OverlaySupportTheme({
-    Key? key,
-    required Widget child,
+    super.key,
+    required super.child,
     required this.toastTheme,
-  }) : super(key: key, child: child);
+  });
 
   static OverlaySupportTheme? of(BuildContext context) {
     return context.dependOnInheritedWidgetOfExactType<OverlaySupportTheme>();

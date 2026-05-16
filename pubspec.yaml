@@ -4,16 +4,16 @@ version: 2.1.2
 homepage: https://github.com/boyan01/overlay_support
 
 environment:
-  sdk: '>=2.14.0 <3.0.0'
+  sdk: ">=3.11.5 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  async: ^2.8.2
+  async:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  lints: ^2.0.0
+  lints:
 
 flutter:

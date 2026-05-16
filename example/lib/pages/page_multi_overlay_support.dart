@@ -49,8 +49,8 @@ class _Screen extends StatelessWidget {
 
 class ScreenAppWidget extends StatelessWidget {
   const ScreenAppWidget({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

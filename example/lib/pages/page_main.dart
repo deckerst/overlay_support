@@ -158,8 +158,7 @@ class _Section extends StatelessWidget {
 
   final List<Widget> children;
 
-  const _Section({Key? key, required this.title, required this.children})
-      : super(key: key);
+  const _Section({required this.title, required this.children});
 
   @override
   Widget build(BuildContext context) {
@@ -180,7 +179,7 @@ class _Section extends StatelessWidget {
 class _Title extends StatelessWidget {
   final String title;
 
-  const _Title({Key? key, required this.title}) : super(key: key);
+  const _Title({required this.title});
 
   @override
   Widget build(BuildContext context) {

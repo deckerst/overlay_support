@@ -48,11 +48,11 @@ class OverlaySupport extends StatelessWidget {
   final bool global;
 
   const OverlaySupport({
-    Key? key,
+    super.key,
     required this.child,
     this.toastTheme,
     this.global = true,
-  }) : super(key: key);
+  });
 
   const OverlaySupport.global({
     Key? key,
@@ -148,9 +148,8 @@ class _LocalOverlaySupport extends StatefulWidget {
   final Widget child;
 
   const _LocalOverlaySupport({
-    Key? key,
     required this.child,
-  }) : super(key: key);
+  });
 
   @override
   _LocalOverlaySupportState createState() => _LocalOverlaySupportState();

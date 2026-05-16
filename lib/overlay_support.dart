@@ -1,4 +1,4 @@
-library overlay_support;
+library;
 
 export 'src/notification/notification.dart';
 export 'src/notification/overlay_notification.dart';

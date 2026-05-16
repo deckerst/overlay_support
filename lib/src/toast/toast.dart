@@ -50,7 +50,7 @@ void toast(
 class _Toast extends StatelessWidget {
   final Widget content;
 
-  const _Toast({Key? key, required this.content}) : super(key: key);
+  const _Toast({required this.content});
 
   @override
   Widget build(BuildContext context) {
