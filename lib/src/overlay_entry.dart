@@ -115,6 +115,7 @@ class _OverlaySupportEntryImpl implements OverlaySupportEntry {
     }
     _dismissed = true;
     _entry.remove();
+    _entry.dispose();
     _dismissedCompleter.complete();
   }
 }
