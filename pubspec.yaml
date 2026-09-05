@@ -4,12 +4,14 @@ version: 2.1.2
 homepage: https://github.com/boyan01/overlay_support
 
 environment:
-  sdk: ">=3.11.5 <4.0.0"
+  sdk: ">=3.13.2 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   async:
+  cupertino_ui:
+  material_ui:
 
 dev_dependencies:
   flutter_test:

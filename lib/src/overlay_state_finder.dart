@@ -1,6 +1,6 @@
 import 'dart:collection';
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:overlay_support/overlay_support.dart';
 
 final GlobalKey<OverlaySupportState> _keyFinder =

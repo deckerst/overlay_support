@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:overlay_support/overlay_support.dart';
 import 'package:overlay_support_example/notification/custom_animation.dart';
 import 'package:overlay_support_example/notification/custom_notification.dart';
